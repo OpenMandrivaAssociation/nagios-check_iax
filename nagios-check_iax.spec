@@ -49,3 +49,26 @@ rm -rf %{buildroot}
 %doc README
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_iax.cfg
 %{_libdir}/nagios/plugins/check_iax
+
+
+%changelog
+* Sat Dec 11 2010 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-4mdv2011.0
++ Revision: 620458
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 1.0.0-3mdv2010.0
++ Revision: 440200
+- rebuild
+
+* Mon Dec 15 2008 Guillaume Rousse <guillomovitch@mandriva.org> 1.0.0-2mdv2009.1
++ Revision: 314633
+- use a herein document for configuration
+- reply on filetrigger for reloading nagios
+
+* Sun Jul 27 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1mdv2009.0
++ Revision: 250423
+- import nagios-check_iax
+
+
+* Sun Jul 27 2008 Oden Eriksson <oeriksson@mandriva.com> 1.0.0-1mdv2009.0
+- initial Mandriva package
