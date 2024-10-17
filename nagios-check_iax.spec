@@ -4,7 +4,7 @@ Version:	1.0.0
 Release:	5
 License:	BSD
 Group:		Networking/Other
-URL:		http://samm.kiev.ua/check_iax/
+URL:		https://samm.kiev.ua/check_iax/
 Source0:	http://samm.kiev.ua/check_iax/check_iax-%{version}.tar.gz
 Requires:	nagios
 BuildRoot:	%{_tmppath}/%{name}-%{version}
