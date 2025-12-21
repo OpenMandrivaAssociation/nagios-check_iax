@@ -9,6 +9,7 @@ Source0:	http://samm.kiev.ua/check_iax/check_iax-%{version}.tar.gz
 Requires:	nagios
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
+BuildRequires:	make
 %description
 Nagios plugin check_iax allows system administrators to monitor IAX/IAX2
 devices.
